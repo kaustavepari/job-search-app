@@ -1,0 +1,195 @@
+/* Profile Card and Sidebar Styling */
+.profile-card {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-image {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    object-fit: cover;
+    border: 3px solid #ffffff;
+  }
+  
+  .profile-name {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-weight: bold;
+    color: blue;
+    text-transform: capitalize;
+  }
+  
+  .profile-bio {
+    font-size: 1rem;
+    margin-top: 5px;
+    color: black;
+    font-style: italic;
+  }
+  
+  /* Sidebar Styling */
+  .left-sidebar {
+    width: 30%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-right: 2px solid #ddd;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  .types-list, .ranges-list {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Search and Job Cards Section */
+  .main-content {
+    width: 70%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
+  
+  button[data-testid="searchButton"] {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #0b69ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[data-testid="searchButton"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Job Card Styling */
+  .jobs-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .job-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .job-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .company-logo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .job-details {
+    flex: 1;
+  }
+  
+  .job-details h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .job-details p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .job-details p:last-child {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  /* Overall Layout */
+  .background-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .background-container {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .left-sidebar {
+      width: 100%;
+      border-right: none;
+      border-bottom: 2px solid #ddd;
+    }
+  
+    .main-content {
+      width: 100%;
+    }
+  
+    .profile-card {
+      padding: 15px;
+    }
+  
+    .job-item {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .company-logo {
+      width: 80px;
+      height: 80px;
+    }
+  }
+  

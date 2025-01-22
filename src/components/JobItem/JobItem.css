@@ -1,0 +1,132 @@
+.job-details-page {
+    font-family: "Roboto", sans-serif;
+    background-color: #f9fafb;
+    padding: 20px;
+  }
+  
+  .job-details-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .company-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .job-header-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .job-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+    color: #1f2937;
+  }
+  
+  .employment-type,
+  .package {
+    font-size: 1rem;
+    color: #6b7280;
+  }
+  
+  .job-description {
+    margin-bottom: 20px;
+  }
+  
+  .job-description h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .job-description p {
+    line-height: 1.6;
+    color: #4b5563;
+  }
+  
+  .job-details-extra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .details-item h3 {
+    font-size: 1rem;
+    color: #6b7280;
+  }
+  
+  .details-item p {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  
+  .visit-button {
+    padding: 10px 20px;
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .visit-button:hover {
+    background-color: #4338ca;
+  }
+  
+  .life-at-company img {
+    margin-top: 10px;
+    border-radius: 8px;
+    width: 100%;
+  }
+  
+  .skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .skills li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .similar-jobs ul {
+    margin-top: 20px;
+  }
+  
+  .similar-job-item {
+    padding: 15px;
+    background-color: #f3f4f6;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .similar-job-item h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  .similar-job-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  

@@ -1,0 +1,25 @@
+/* App.css */
+
+body {
+  font-family: 'Inter', sans-serif; /* Set Inter as the global font */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f8f9fa; /* Optional: Light background */
+  color: #212529; /* Default text color */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700; /* Bold font for headings */
+}
+
+p, li, span {
+  font-weight: 400; /* Regular font for text */
+  line-height: 1.6; /* Improve readability */
+}
+
+button {
+  font-family: inherit; /* Use the same font as the rest of the app */
+  font-weight: 500;
+  cursor: pointer;
+}
